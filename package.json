@@ -1,0 +1,41 @@
+{
+  "name": "insomnia-plugin-shawithrsa",
+  "version": "1.0.0",
+  "description": "An Insomnia plugin for generating digital signatures using various SHA hash algorithms (SHA1, SHA224, SHA256, SHA384, SHA512) with RSA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pandudpn/insomnia-plugin-shawithrsa.git"
+  },
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "insomnia-plugin-signature",
+    "shawithrsa"
+  ],
+  "author": "Pandu Dwi Putra Nugroho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandudpn/insomnia-plugin-shawithrsa/issues"
+  },
+  "homepage": "https://github.com/pandudpn/insomnia-plugin-shawithrsa#readme",
+  "insomnia": {
+    "name": "shaWithRSA",
+    "displayName": "Generate Signature with SHA and RSA",
+    "description": "An Insomnia plugin for generating digital signatures using various SHA hash algorithms (SHA1, SHA224, SHA256, SHA384, SHA512) with RSA",
+    "publisher": {
+      "name": "Pandu Dwi Putra Nugroho",
+      "icon": ""
+    },
+    "images": {
+      "icon": "images/icon.png"
+    },
+    "unlisted": false
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  }
+}
