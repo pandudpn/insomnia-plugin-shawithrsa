@@ -2,7 +2,7 @@
   "name": "insomnia-plugin-shawithrsa",
   "version": "1.0.0",
   "description": "An Insomnia plugin for generating digital signatures using various SHA hash algorithms (SHA1, SHA224, SHA256, SHA384, SHA512) with RSA",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
