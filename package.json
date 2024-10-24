@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-shawithrsa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Insomnia plugin for generating digital signatures using various SHA hash algorithms (SHA1, SHA224, SHA256, SHA384, SHA512) with RSA",
   "main": "app.js",
   "scripts": {
